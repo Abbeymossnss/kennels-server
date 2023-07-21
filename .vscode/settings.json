@@ -1,7 +1,11 @@
 {
-   "python.formatting.autopep8Path": "/Users/abbeymoss/.pyenv/shims/autopep8",
-   "python.linting.pylintEnabled": true,
-   "python.analysis.diagnosticSeverityOverrides": {
-     "reportGeneralTypeIssues": "none"
-   }
+  "python.formatting.autopep8Path": "/Users/abbeymoss/.pyenv/shims/autopep8",
+  "python.linting.pylintEnabled": true,
+  "python.analysis.diagnosticSeverityOverrides": {
+  "reportGeneralTypeIssues": "none"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
 }
