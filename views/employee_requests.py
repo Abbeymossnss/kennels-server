@@ -78,7 +78,7 @@ def get_all_employees():
             l.address location_address
         FROM Employee e
         JOIN Location l
-            ON l.id = a.location_id
+            ON l.id = e.location_id
         """)
 
 
